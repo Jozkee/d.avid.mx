@@ -29,7 +29,8 @@ github_username:  jozkee
 
 # Build settings
 # theme: minima
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 # theme configs
 paginate: 3
 paginate_path: "/blog/page:num"
