@@ -1,0 +1,52 @@
+// My custom CSS
+
+body {
+  color: #c9d1d9;
+}
+
+a {
+  color: #8ab4f8;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8ab4f8; // #c9d1d9
+}
+
+// Content - things in  post.html
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: #fff;
+}
+
+.content a {
+  color: #8ab4f8;
+}
+
+// Pagination
+.pagination-previous, .pagination-next, .pagination-link, .pagination-link.is-current {
+  background: initial;
+  border: initial;
+  color: inherit;
+}
+
+.pagination-previous:hover, .pagination-next:hover, .pagination-link:hover {
+  background: initial;
+  border: initial;
+  color: inherit;
+}
+
+.pagination-previous:active, .pagination-next:active, .pagination-link:active {
+  box-shadow: initial;
+}
+
+.pagination-previous[disabled], .pagination-next[disabled], .pagination-link[disabled] {
+  background: initial;
+  border: initial;
+  color: inherit;
+}
+
+// Card
+.card-header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

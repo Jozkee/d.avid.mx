@@ -1,0 +1,23 @@
+---
+---
+$primary: #333;
+$scheme-main: rgba(32, 33, 36, 1);
+$scheme-main-bis: rgba(32, 33, 36, 1);
+$scheme-invet: $primary;
+$scheme-invet-bis: $primary;
+$background: $primary;
+$link: #c9d1d9;
+$code: #d0d0d0;
+// $title-color: #fff;
+
+// Card https://bulma.io/documentation/components/card/
+$card-color: #c9d1d9;
+$card-header-color: #8ab4f8;
+// $card-header-weight: normal;
+
+// Import Main CSS file from theme
+// @import "main"; I'm not really the template's main, see _sass/main-copy.scss.
+@import "main-copy";
+
+@import "custom";
+@import "base16-dark.css"
