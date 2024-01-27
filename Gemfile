@@ -7,8 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.2.0"
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 4.3.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 gem "bulma-clean-theme"
@@ -32,9 +31,3 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # # Syntax highlighter
 # gem 'rouge'
-
-# Fixes jekyll 3.9.1 | Error:  no implicit conversion of Hash into Integer
-gem 'jekyll-manager', group: :jekyll_plugins
-
-# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll#building-your-site-locally
-gem "webrick", "~> 1.8"
