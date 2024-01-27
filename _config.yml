@@ -29,7 +29,6 @@ github_username:  jozkee
 
 # Build settings
 theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
 
 # theme configs
 paginate: 3

@@ -32,3 +32,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # # Syntax highlighter
 # gem 'rouge'
+
+# Fixes jekyll 3.9.1 | Error:  no implicit conversion of Hash into Integer
+gem 'jekyll-manager', group: :jekyll_plugins
+
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll#building-your-site-locally
+gem "webrick", "~> 1.8"
