@@ -20,10 +20,9 @@
 
 title: Jozkee's blog
 email: jozkyy@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-#  Thoughts on things than are of my interest, mostly related to programming.
+# description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jozkee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://d.avid.mx" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jozkee
 github_username:  jozkee
 
@@ -31,10 +30,10 @@ github_username:  jozkee
 theme: bulma-clean-theme
 
 # theme configs
-paginate: 3
-paginate_path: "/blog/page-:num"
+paginate: 8
+paginate_path: "/posts/page-:num"
 disqus:
-  shortname: jozkee-github-io
+  shortname: d-avid-mx
 # end theme configs
 
 defaults:
