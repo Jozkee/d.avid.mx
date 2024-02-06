@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://d.avid.mx" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jozkee
 github_username:  jozkee
+permalink: /:title/
 
 # Build settings
 theme: bulma-clean-theme
