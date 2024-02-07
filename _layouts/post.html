@@ -6,7 +6,13 @@ hide_share_buttons: true
 <div class="content">
     <h1 class="title is-2">{{ page.title }}</h1>
     {% if page.date != null %}
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }}</p>
+    <p>
+      Published: {{ page.date | date: "%b %-d, %Y" }}
+
+      {% if page.modified != null %}
+      , Modified: {{ page.modified | date: "%b %-d, %Y" }}
+      {% endif %}
+    </p>
     {% endif %}
     {{ content }}
 </div>
