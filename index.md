@@ -1,10 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: post
-# title: EwE OwO UwU
+layout: page
+title: About me
 ---
 ## Hi
 
-Hi, I'm currently work at Microsoft as a ~~Code Monkey~~ Software Engineer and its been like that for the last {{ "now" | date: "%s" | minus: "1559365200" | date: "%Y" | minus: "1970" }} years. bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+My name's David, I use the pseudonyms jozky/jozkyy/jozkee (the last two when the first one is not available). I'm a software engineer based in Austin but I was born and raised in Nuevo León, México.
+
+For the last {{ "now" | date: "%s" | minus: "1559365200" | date: "%Y" | minus: "1970" }} years I've been working for Microsoft as a member of the .NET libraries team working on open-source project [dotnet/runtime](https://github.com/dotnet/runtime) where I've owned areas like `System.Diagnostics.Process`, `System.IO`, `System.Security`, and `System.Text.Json`, to name a few. My current role grants me opportunities to learn about cross-platform development, file systems, IPC, interoperability, benchmarking, and many low-level things.
