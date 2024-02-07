@@ -13,6 +13,14 @@ a:hover {
   color: #8ab4f8; // #c9d1d9
 }
 
+.section {
+  text-align: justify;
+}
+
+html {
+  overflow: auto;
+}
+
 // Content - things in  post.html
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #fff;
@@ -49,4 +57,19 @@ a:hover {
 .card-header-title {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+// header.html
+
+.navbar-baseurl {
+  padding:0 0.75em;
+}
+
+.navbar-baseurl-img {
+  border-radius:50%;
+  max-height:2.7rem!important;
+}
+
+.navbar-baseurl-text {
+  padding-left: 0.5em;
 }
